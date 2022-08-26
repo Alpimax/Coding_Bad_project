@@ -13,5 +13,22 @@ public class RepeatFront {
 
     //YOUR CODE
 
-//    I read question
+    //    I read question
+//    //    I'll go with for loop, but my loop have to turn my integer input number.And then, I'll use substring method for get result.
+    public static void main(String[] args) {
+        System.out.println(method("Chocolate", 3));
+    }
+
+    public static String method(String str, int number) {
+        String result = "";
+        if (number > 0 && number < str.length()) {
+
+            for (int i = number; i >= 0; i--) {
+                result += str.substring(0,i);
+            }
+            return result;
+        }
+        return str;
+    }
+
 }
