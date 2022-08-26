@@ -14,4 +14,8 @@ public class RepeatSeparator {
 
     //YOUR CODE HERE
 //    reading question...
+//    Logic: I'll go with for loop but trick part first I have to write first str and second str, which is if number 1
+//    I won't write second str, that mean,my loop turn one less from number and then add manually last str.
+
+
 }
