@@ -12,4 +12,7 @@ public class RepeatEnd {
      */
 
     //YOUR CODE.....
+
+//    I'll go with for loop, but my loop have to turn my integer input number.And then, I'll use substring method for get result.
+
 }
