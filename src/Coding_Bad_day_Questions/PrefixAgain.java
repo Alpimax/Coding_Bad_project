@@ -8,5 +8,6 @@ public class PrefixAgain {
 //prefixAgain("abXYabc", 2) → true
 //prefixAgain("abXYabc", 3) → false
 
+// I II try to solve this one first.
 
 }
