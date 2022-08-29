@@ -8,4 +8,6 @@ public class WordEnds {
 //wordEnds("XY123XY", "XY") → "13"
 //wordEnds("XY1XY", "XY") → "11"
 
+
+    // Begin to think about logic
 }
