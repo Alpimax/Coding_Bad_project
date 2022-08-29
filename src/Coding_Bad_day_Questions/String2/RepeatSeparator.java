@@ -13,4 +13,22 @@ public class RepeatSeparator {
      */
 
     //YOUR CODE HERE
+//    reading question...
+//    Logic: I'll go with for loop but trick part first I have to write first str and second str, which is if number 1
+//    I won't write second str, that mean,my loop turn one less from number and then add manually last str.
+    public static void main(String[] args) {
+        System.out.println(method("This", "And", 2));
+    }
+
+    public static String method(String word, String sep, int count) {
+        String result = "";
+        for (int i = count; i > 1; i--) { // this part goes util 1 for add last str, I am going to add with if statement.
+            result += word + sep;
+        }
+//
+        if (count > 0)
+            result += word;
+        return result;
+    }
 }
+
