@@ -10,4 +10,9 @@ public class WordEnds {
 
 
     // Begin to think about logic
+
+//   I ll go with for loop and check each character if XY equal i +1 keep  i-1 and i+2
+//    let's try
+
+
 }
