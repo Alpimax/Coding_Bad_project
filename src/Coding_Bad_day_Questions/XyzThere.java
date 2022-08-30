@@ -8,6 +8,31 @@ public class XyzThere {
 //xyzThere("abc.xyz") → false
 //xyzThere("xyz.abc") → true
 
+    //this solution is not giving the result but maybe it can give idea if you want to correct or wanna comment let
+    // me know only 2 result is missing:(
+public boolean xyzThere(String str) {
+
+
+
+    if((!str.contains("xyz") || !str.contains("xyz.")) && (str.contains(".xyz"))){
+        return false;
+
+    }else if((str.contains("xyz") || str.contains("xyz.")) && (str.contains(".xyz"))){
+        return true;
+
+    }else if((str.contains("xyz") || str.contains("xyz.")) && !(str.contains(".xyz"))){
+        return true;
+
+    }else{
+        return false;
+    }
+
+}
+
+
 
 
 }
+
+
+
