@@ -1,4 +1,4 @@
-package Coding_Bad_day_Questions;
+package Coding_Bad_day_Questions.String2;
 
 public class XyzThere {
 //Return true if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.). So "xxyz" counts but "x.xyz" does not.

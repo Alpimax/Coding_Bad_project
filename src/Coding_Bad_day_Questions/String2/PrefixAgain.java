@@ -1,4 +1,4 @@
-package Coding_Bad_day_Questions;
+package Coding_Bad_day_Questions.String2;
 
 public class PrefixAgain {
 //   Given a string, consider the prefix string made of the first N chars of the string. Does that prefix string appear
