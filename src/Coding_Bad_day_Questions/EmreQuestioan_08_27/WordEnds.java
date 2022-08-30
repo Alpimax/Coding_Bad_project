@@ -35,5 +35,5 @@ public class WordEnds {
         }
         return str;
     }
-//    I think, probably there are so much different way,let's search and find easy way learn new logic.
+//    I think, probably there are so much different way.let's search and find easy way learn new logic.
 }
