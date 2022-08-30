@@ -10,29 +10,30 @@ public class XyzThere {
 
     //this solution is not giving the result but maybe it can give idea if you want to correct or wanna comment let
     // me know only 2 result is missing:(
-public boolean xyzThere(String str) {
+    public boolean xyzThere(String str) {
+
+//
+//        if ((!str.contains("xyz") || !str.contains("xyz.")) && (str.contains(".xyz"))) {
+//            return false;
+//
+//        } else if ((str.contains("xyz") || str.contains("xyz.")) && (str.contains(".xyz"))) {
+//            return true;
+//
+//        } else if ((str.contains("xyz") || str.contains("xyz.")) && !(str.contains(".xyz"))) {
+//            return true;
+//
+//        } else {
+//            return false;
+//        }
+//
+//    }
+
+//        I add my code here
 
 
+        String result = "";
+        result += str.replaceAll(".xyz", "");
 
-    if((!str.contains("xyz") || !str.contains("xyz.")) && (str.contains(".xyz"))){
-        return false;
-
-    }else if((str.contains("xyz") || str.contains("xyz.")) && (str.contains(".xyz"))){
-        return true;
-
-    }else if((str.contains("xyz") || str.contains("xyz.")) && !(str.contains(".xyz"))){
-        return true;
-
-    }else{
-        return false;
+       return result.contains("xyz");
     }
-
 }
-
-
-
-
-}
-
-
-
