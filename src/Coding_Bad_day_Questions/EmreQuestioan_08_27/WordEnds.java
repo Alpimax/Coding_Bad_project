@@ -20,7 +20,7 @@ public class WordEnds {
     public static String method(String a, String b) {
         String str = "";
 
-        if (a.length() == b.length())
+       if (a.length() == b.length() ||a.length() <= b.length() )
             return str;
         if (a.substring(0, b.length()).equals(b)){
             str+=a.charAt(b.length());
