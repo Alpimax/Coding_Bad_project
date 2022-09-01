@@ -9,4 +9,16 @@ doubleChar("The") → "TThhee"
 doubleChar("AAbb") → "AAAAbbbb"
 doubleChar("Hi-There") → "HHii--TThheerree"
      */
+
+    // COMPLETED SOLUTION
+    public static void main(String[] args) {
+        System.out.println(doubleChar("The"));
+    }
+    public static String doubleChar(String str) {
+        String answer="";
+        for(int i =0; i<=str.length()-1;i++){
+            answer+=str.charAt(i)+""+str.charAt(i);
+        }
+        return answer;
+    }
 }

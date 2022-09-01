@@ -26,12 +26,12 @@ public class RepeatEnd {
             //   Which was question give us different test case
             //You may assume that n is between 0 and the length of the string, inclusive.
             //    I decided, put all code inside if statement.
-            for (int i = 1; i <= number; i++) {
+            for (int i = 1; i <= number; i++) {  // and here code needs to be (int i=0; i<number; i++)
                 result += str.substring(str.length() - number);
             }
             return result;
         }
-        return str;
+        return str;// (code needs to be return result)
     }
 
 }
