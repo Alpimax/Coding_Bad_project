@@ -17,8 +17,23 @@ public class ZipZap {
         System.out.println(zipZap("zipXzap"));
     }
     public static String zipZap(String str) {
+        return method(str);
+    }
+    public static  String method (String str) {
+        if (str.length() < 3) {
+            return str;
+        }
+        String sr = "";
+        for (int i = 0; i < str.length(); i++)
 
-        //type your code here
+            if (str.charAt(i) == 'z' && str.charAt(i + 2) == 'p') {
+                sr += str.charAt(i) + "" + str.charAt(i + 2);
+                i += 2;
+            } else
+                sr += str.charAt(i);
+
+
+        return sr;
 
 
 
