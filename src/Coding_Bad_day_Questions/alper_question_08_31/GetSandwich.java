@@ -19,6 +19,6 @@ public class GetSandwich {
 
        // here is your code
 
-
+return str;
     }
 }
