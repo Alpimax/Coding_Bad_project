@@ -12,8 +12,10 @@ public class PrefixAgain {
 // I II try to solve this one first.
 
     // Here is my solution for the question
-
-    public boolean prefixAgain(String str, int n) {
+    public static void main(String[] args) {
+        prefixAgain("abXYabc",1);
+    }
+    public static boolean prefixAgain(String str, int n) {
     if(str.length()>1){
       if(str.substring(n,str.length()-1).contains(str.substring(0,n))){
        return true;}
