@@ -16,9 +16,16 @@ public class GetSandwich {
     }
 
     public static String getSandwich(String str) {
+        int indexFirstBread = str.indexOf("bread");
+        String SecondBread = str.substring(indexFirstBread+1);
+        int indexSecondBread =  SecondBread.lastIndexOf("bread");
 
-       // here is your code
+        if ((str.contains("bread"))&&(SecondBread.contains("bread"))) {
+            return SecondBread.substring(4,indexSecondBread);
 
-return str;
+        }else {
+            return "";
+        }
     }
+
 }
