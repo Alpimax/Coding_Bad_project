@@ -10,5 +10,23 @@ public class emre_question_08_29 {
 //matchUp([1, 2, 3], [2, 3, 5]) → 3
 //matchUp([1, 2, 3], [2, 3, 3]) → 2
 
+    public static void main(String[] args) {
 
+    }
+    public int matchUp(int[] nums1, int[] nums2) {
+        int counter=0;
+        for(int i=0;i<nums1.length;i++){
+            if(nums2[i]>nums1[i]){
+                if(nums2[i]-nums1[i]<=2 &&nums2[i]-nums1[i]!=0 ){
+                    counter++;}
+            }
+            if(nums1[i]>nums2[i]){
+                if(nums1[i]-nums2[i]<=2 &&nums1[i]-nums2[i]!=0 ){
+                    counter++;}
+            }
+
+
+        }
+        return counter;
+    }
 }
